@@ -1,0 +1,12 @@
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.exe
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.deps.json
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.runtimeconfig.json
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.runtimeconfig.dev.json
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.dll
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\bin\Debug\netcoreapp3.1\PathFindingAlgorithm.pdb
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.AssemblyInfoInputs.cache
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.AssemblyInfo.cs
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.csproj.CoreCompileInputs.cache
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.dll
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.pdb
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.genruntimeconfig.cache
