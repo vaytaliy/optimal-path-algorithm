@@ -24,8 +24,7 @@ namespace PathFindingAlgorithm
 
         static void Main(string[] args)
         {
-            //Setup
-            
+            //Setup    
             RenderStatic(); // creating static objects
             Draw(); //drawing static and dynamic elements to the console
             RecalculateWeights(); //Initial path weight calculation
@@ -40,6 +39,7 @@ namespace PathFindingAlgorithm
             Console.WriteLine("1 - change start position");
             Console.WriteLine("2 - change finish position");
             Console.WriteLine("3 - animate movement start to finish");
+            Console.WriteLine("Any other command exits the program");
             Console.WriteLine("===");
 
             Console.WriteLine();
@@ -110,7 +110,7 @@ namespace PathFindingAlgorithm
                 var xParsed = int.Parse(xInput);
                 Console.Write("Y: ");
                 string yInput = Console.ReadLine();
-                var yParsed = int.Parse(xInput);
+                var yParsed = int.Parse(yInput);
                 if (type == "start")
                 {
                     character.X = xParsed;
@@ -144,7 +144,7 @@ namespace PathFindingAlgorithm
 
             while (true)
             {
-                //Console.Clear();
+                Console.Clear();
 
                 if (character.X != finish.X || character.Y != finish.Y)
                 {
@@ -212,7 +212,7 @@ namespace PathFindingAlgorithm
                             {
 
                                 var foundRoadNode = roadNodes[(x, y)];
-                                foundRoadNode.Weight = adjacentToSearchFor[i].Weight + 1; //k + 1 weight
+                                foundRoadNode.Weight = adjacentToSearchFor[i].Weight + 1; //k + 1 weight (k is previous cell)
 
                                 newAdjacentElements.Add(foundRoadNode);
                                 if (getNextCellByWeight.ContainsKey(iteration))
@@ -267,15 +267,6 @@ namespace PathFindingAlgorithm
             }
 
             Console.WriteLine();
-        }
-
-        static void SetFinish(int newX, int newY)
-        {
-            if (!barrierNodes.ContainsKey((newX, newY)))
-            {
-                finish.X = newX;
-                finish.Y = newY;
-            }
         }
     }
 

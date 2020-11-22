@@ -10,3 +10,4 @@ D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\
 D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.dll
 D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.pdb
 D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.genruntimeconfig.cache
+D:\CsharpProjects\Exercises\PathFindingAlgorithm\PathFindingAlgorithm\obj\Debug\netcoreapp3.1\PathFindingAlgorithm.csprojAssemblyReference.cache
